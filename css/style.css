@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Climate+Crisis&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Staatliches&family=Teko:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Climate+Crisis&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Jersey+15&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sedgwick+Ave+Display&family=Staatliches&family=Teko:wght@300..700&display=swap');
+
+:root {
+  /* Font family */
+  --PoppinsNavbar-font: "Poppins", sans-serif;
+  --TekoLogo-font: "Teko", sans-serif;
+
+  /* Font size */
+  ---fontSize-Paragraph: 15px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--PoppinsNavbar-font);
+  font-size: var(---fontSize-Paragraph);
+  line-height: 1.8;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+
+.logo {
+  font-family: var(--TekoLogo-font);
+  font-weight: 900;
+  font-size: 22px;
+  color: #E67E22;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #E67E22;
+}
+
+.logo span {
+  color: #D16957;
+}
+
+.logo i {
+  margin-right: 5px;
+}
+
+/* Navbar */
+
+.navbar {
+  position: fixed;
+  background-color: rgba(255,255,255,0.1);
+  padding: 20px 15px;
+  width: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  /* align-items: center; */
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+  font-size: 18px;
+  font-weight: 600;
+  color: #E67E22;
+}
+
+/* Button - Get in Touch */
+
+button {
+  font-size: 15px;
+  padding: 5px 10px;
+  background: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.6s;
+  margin: 0 0.3rem;
+}
+
+button i {
+  margin-right: 8px;
+}
+
+button:hover {
+  color: #E67E22;
+  border: 1px solid #E67E22;
+  padding: 5px 25px;
+}
+
+/* Background Hero Image */
+
+.hero-image {
+  background: url("../images/red_earth.jpg") no-repeat center center/cover;
+  height: 80vh;
+}
+
+/* Hero section */
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 15rem 11rem;
+  color: #fff;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.hero-text p {
+  margin-top: 1.5rem;
+  width: 56%;
+}
+
+.hero-text button {
+  font-size: 16px;
+  margin-top: 2.5rem;
+  background: none;
+  color: #fff;
+  padding: 10px 30px;
+  border: 1px solid #D16957;
+  transition: 0.6s;
+}
+
+.hero-text button:hover {
+  color: #FAE390;
+  padding: 10px 50px;
+  border: 1px solid #E67E22;
+}
+
+/* FOOTER GRID */
+
+.footer {
+  background: #161616;
+  padding: 50px 0;
+  margin-top: 2rem;
+}
+
+.footer h4 {
+  color: #CCD1D1;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  color: #CCD1D1;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer ul li {
+  line-height: 2;
+}
+
+.footer ul li a {
+  color: #CCD1D1;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.footer ul li a:hover {
+  color: #E67E22;
+}
+
+.footer i {
+  font-size: 1.2rem;
+  color: #CCD1D1;
+  margin-right: 10px;
+  transition: .3s;
+}
+
+.footer i:hover {
+  color: #E67E22;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-info div {
+  display: flex;
+  align-items: center;
+}
+
+/* Footer logo */
+
+.footer .logo {
+  font-family: var(--TekoLogo-font);
+  font-size: 20px;
+  font-weight: 900;
+  color: #E67E22;
+}
+
+.footer .logo a {
+  text-decoration: none;
+  color: #E67E22;
+}
+
+.footer .logo span {
+  color: #D16957;
+}
+
+.footer .logo h1 i {
+  color: #E67E22;
+  font-size: 2.5rem;
+  margin-right: 5px;
+}
