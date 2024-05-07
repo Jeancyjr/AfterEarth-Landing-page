@@ -20,7 +20,6 @@
 body {
   font-family: var(--PoppinsNavbar-font);
   font-size: var(---fontSize-Paragraph);
-  line-height: 1.8;
 }
 
 .container {
@@ -77,8 +76,8 @@ body {
 }
 
 .navbar ul li a:hover {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 700;
   color: #E67E22;
 }
 
@@ -86,6 +85,7 @@ body {
 
 button {
   font-size: 15px;
+  font-weight: 600;
   padding: 5px 10px;
   background: none;
   color: #fff;
@@ -165,14 +165,11 @@ button:hover {
 
 .footer p {
   color: #CCD1D1;
+  line-height: 1;
 }
 
 .footer ul {
   list-style-type: none;
-}
-
-.footer ul li {
-  line-height: 2;
 }
 
 .footer ul li a {
@@ -189,6 +186,7 @@ button:hover {
   font-size: 1.2rem;
   color: #CCD1D1;
   margin-right: 10px;
+  line-height: 1.5;
   transition: .3s;
 }
 

@@ -35,6 +35,10 @@
   text-transform: uppercase;
 }
 
+#card-1 h3 {
+  margin-top: 1rem;
+}
+
 #card-1 p {
   margin-top: 1rem;
 }

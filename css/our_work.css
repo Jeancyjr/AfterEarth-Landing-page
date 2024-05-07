@@ -10,12 +10,12 @@
 .discover-text h1 {
   font-size: 2rem;
   text-transform: uppercase;
-  margin-top: 3rem;
+  margin-top: 4.5rem;
 }
 
 .discover-text > p {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 /* Card styling */
@@ -28,15 +28,11 @@
 
 .card {
   margin: 0 1.5rem;
-  padding: 10px;
+  padding: 15px;
   border: 2px solid #E67E22;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   margin-top: 3rem;
-}
-
-.card p {
-  margin-top: 0.5rem;
 }
 
 .card-image {
